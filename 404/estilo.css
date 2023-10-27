@@ -1,0 +1,41 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+}
+
+.be {
+    text-align: justify;
+    margin: 12px 48px 12px 48px;
+}
+
+.equip {
+    padding-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.fa-building {
+    color: #1446A0;
+}
+
+.fa-building:hover {
+    color: #0E2B58;
+}
+
+.they {
+    font-family: 'Zacbel X', sans-serif;
+    background-color: #245ac0;
+    background-image: linear-gradient(90deg, #245ac0 0%, #4624c0 100%);
+    color: white;
+}

@@ -1,0 +1,24 @@
+1446A0 - Cobalt Blue
+0047AB - ANOTHER Cobalt Blue
+1E2019 - Eerie Black
+F5FBEF - Ivory
+7E8987 - Battleship Gray
+0B161E - Rich Black
+
+Quicksand — Regular 400
+Fira Sans — Medium 500
+
+
+Você parou:
+- https://getbootstrap.com/docs/5.3/layout/columns/
+- https://uiverse.io/buttons?page=6
+- https://freefrontend.com/
+- https://www.calvinklein.com.br/account#/profile
+- https://fontawesome.com/
+
+http://localhost/Projeto%20Integrador%20-%20TCC/index.php
+
+Ana - Diretor de Marketing
+Maranha - Modelista
+Bianca - Co-fundador e CEO
+Siqueira - Redator de Conteúdo

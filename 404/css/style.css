@@ -1,0 +1,267 @@
+body {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: whitesmoke;
+}
+
+.lorem {
+  color: #999999;
+  font-weight: 300;
+}
+
+.top {
+  font-family: 'Migontama', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+}
+
+/* BUTTON */
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.know-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.know-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+
+button.know-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.know-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.know-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.know-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+/* END BUTTON */
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+  color: #999;
+}
+
+.content {
+  padding: 7rem 0;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.owl-1 .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.owl-1 .owl-nav .owl-next,
+.owl-1 .owl-nav .owl-prev {
+  border: 1px solid red;
+  z-index: 92;
+  position: absolute;
+  top: 50%;
+}
+
+.owl-1 .owl-nav .owl-next:active,
+.owl-1 .owl-nav .owl-next:focus,
+.owl-1 .owl-nav .owl-prev:active,
+.owl-1 .owl-nav .owl-prev:focus {
+  outline: none;
+}
+
+.owl-1 .owl-nav .owl-next span,
+.owl-1 .owl-nav .owl-prev span {
+  color: #fff;
+}
+
+.owl-1 .owl-nav .owl-next span:before,
+.owl-1 .owl-nav .owl-prev span:before {
+  font-size: 40px !important;
+}
+
+.owl-1 .owl-nav .owl-next {
+  border: 4px solid blue;
+  right: 20px;
+}
+
+.owl-1 .owl-nav .owl-prev {
+  left: 20px;
+}
+
+.owl-1 .owl-dots {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.owl-1 .owl-dots .owl-dot {
+  background: none;
+  display: inline-block;
+}
+
+.owl-1 .owl-dots .owl-dot>span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 4px;
+}
+
+.owl-1 .owl-dots .owl-dot.active>span {
+  background: white;
+}
+
+.owl-1 .owl-dots .owl-dot:active,
+.owl-1 .owl-dots .owl-dot:focus {
+  outline: none;
+}
+
+.midia .img {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.midia .coluna {
+  padding: 30px 50px 50px 50px;
+}
+
+@media (max-width: 991.98px) {
+  .midia .coluna {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.category {
+  color: #adb5bd;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: .2rem;
+}
+
+.midia .coluna h2 {
+  font-family: 'Migontama', sans-serif;
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.midia .coluna h2 a {
+  color: #000;
+}
+
+.carousel-nav {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+.carousel-nav a {
+  color: #999;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.carousel-nav a:hover {
+  color: #000;
+}
+
+.carousel-nav a.active {
+  color: #000;
+}
+
+.carousel-nav a.active:before {
+  content: "";
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-bottom: 1px solid #000;
+}

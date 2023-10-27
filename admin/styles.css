@@ -1,0 +1,225 @@
+body {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.alert_info {
+    background-image: linear-gradient(to right, #03276f, #0b2f7d, #13378c, #1a3f9b, #2147aa, #234caf, #2551b5, #2756ba, #2759b7, #285cb4, #2b5fb1, #2f61ad);
+    border: 2px solid #4672c4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0
+}
+
+.close {
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.9;
+    font-weight: normal;
+}
+
+.dados li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 30px 0 30px 0;
+    padding: 10px 10px 10px 20px;
+    color: gray;
+}
+
+.dados li:hover {
+    color: #333333;
+    font-weight: 600;
+}
+
+.btn-modal {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.btn-modal:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+}
+
+.btn-modal a {
+    font-size: 14px;
+}
+
+.btn-dark {
+    padding-left: 50px;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.btn-dark a {
+    font-size: 14px;
+    color: white;
+}
+
+.lanc-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text-profile {
+    font-family: 'Monzane', sans-serif;
+}
+
+.profile {
+    border: 2px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 24px 30px;
+}
+
+/* Ofertas */
+
+/* #flexCheckDefault {
+} */
+
+.form-check .form-check-input[type="checkbox"] {
+    border-radius: 0;
+    border-width: 2px;
+    border-color: #dbdbdb;
+    box-shadow: none;
+    transition: 20ms ease 0s, border 100ms ease 0s;
+}
+
+.form-check .form-check-input[type="checkbox"]:checked {
+    border-radius: 0;
+    border-color: #000000;
+    background-color: #000000;
+}
+
+/* Fim Ofertas */
+
+/* Deletar depois */
+
+.fancy {
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100%);
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.fancy:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+}
+
+.fancy:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+}
+
+/* (comentei rapidinho pra testar os estilos) */
+/*estilo teste do produtos.php*/
+
+/* table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #46524e;
+    text-decoration: underline;
+}
+
+.box{
+    background-color: #ff5555;
+    border: 1px solid;
+    color: aliceblue;
+} */
+
+/*estilo TESTE do produto_insere.php, produto_altera.php e produto_exclui.php*/
+
+/* input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+} */

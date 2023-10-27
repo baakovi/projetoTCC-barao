@@ -1,0 +1,135 @@
+body {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner {
+    background-image: linear-gradient(#070e136e, #070e136e), url(Logo/retrato-recortado-de-um-empresario-de-sucesso-abotoando-seu-terno-elegante-isolado-em-um-fundo-escuro.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 0 0 8px #fff;
+}
+
+.btn-outline-light {
+    border-radius: 0 !important;
+    padding: 2% 5% 2% 5%;
+    text-transform: uppercase;
+}
+
+.btn-banner {
+    padding: 2% 5% 2% 5%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn-banner2 {
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1;
+    color: white;
+}
+
+.btn-banner2:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.btn-banner2:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btn-banner2:hover::after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+.btn-banner2:active {
+    top: 2px;
+}
+
+/* LANÇAMENTOS */
+
+.lanc-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+}
+/* AMOSTRAS */
+
+.amostra-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ACESSÓRIOS */
+
+.img {
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    margin-bottom: 15px;
+    border-radius: 0.50rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.img-text {
+    color: rgb(75 85 99);
+    text-align: justify;
+}
+
+.btn-shop {
+    padding: 10px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-shop:hover {
+    background: linear-gradient(90deg, #1446A0 0%, #7E8987 100%);
+    box-shadow: 0px 15px 20px #07227967;
+    color: #fff;
+    font-weight: bold;
+    transform: translateY(-5px);
+}
+
+.btn-shop:active {
+    transform: translateY(-1px);
+}

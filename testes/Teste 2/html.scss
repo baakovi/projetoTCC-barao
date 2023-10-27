@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+    color: #ffffff;
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: 'Roboto Slab';
+    font-feature-settings: 'palt';
+    line-height: 1.25;
+    letter-spacing: 0.1em;
+}
+
+.flex {
+    display: flex;
+}
+
+span {
+    display: block;
+    text-shadow: 0 0 8px #fff;
+    animation-name: cross-fade-blur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    @for $i from 1 through 10 {
+        &:nth-child(#{$i}) {
+            animation-delay: $i * 0.04s;
+        }
+    }
+}
+
+@keyframes cross-fade-blur {
+    0% {
+        opacity: 0;
+        filter: blur(1rem);
+        transform: translate3d(0, 3rem, 0) rotate3d(0.25, -1, 0, 66.6deg);
+    }
+
+    20%,
+    60% {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translate3d(0, 0, 0);
+    }
+
+    80%,
+    100% {
+        opacity: 0;
+        filter: blur(1rem);
+        transform: translate3d(0, -3rem, 0) rotate3d(-0.25, 1, 0, 66.6deg);
+    }
+}
